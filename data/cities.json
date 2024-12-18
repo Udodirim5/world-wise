@@ -1,39 +1,27 @@
 {
   "cities": [
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "a88e",
+      "cityName": "Amourj",
+      "country": "Mauritania",
+      "emoji": "🇲🇷",
+      "date": "2024-12-17T23:58:18.827Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
+        "lat": "15.961329081596647",
+        "lng": "-7.294921875000001"
+      }
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "86cb",
-      "cityName": "Iznatoraf",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-12-17T15:59:07.465Z",
+      "id": "2c8d",
+      "cityName": "Goundam",
+      "country": "Mali",
+      "emoji": "🇲🇱",
+      "date": "2024-12-18T00:02:10.905Z",
       "notes": "",
       "position": {
-        "lat": "38.134556577054134",
-        "lng": "-3.0322265625000004"
+        "lat": "17.308687886770034",
+        "lng": "-4.658203125000001"
       }
     }
   ]
