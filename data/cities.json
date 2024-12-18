@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "id": "a88e",
-      "cityName": "Amourj",
-      "country": "Mauritania",
-      "emoji": "🇲🇷",
-      "date": "2024-12-17T23:58:18.827Z",
-      "notes": "",
-      "position": {
-        "lat": "15.961329081596647",
-        "lng": "-7.294921875000001"
-      }
-    },
-    {
       "id": "2c8d",
       "cityName": "Goundam",
       "country": "Mali",
