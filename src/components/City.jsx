@@ -23,8 +23,7 @@ const City = () => {
 
   useEffect(() => {
     getCity(id);
-    // eslint-disable-next-line
-  }, [id]);
+  }, [id, getCity]);
 
   if (loading) return <Spinner />;
   return (

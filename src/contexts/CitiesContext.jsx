@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { createContext, useEffect, useReducer } from "react";
+import { createContext, useCallback, useEffect, useReducer } from "react";
 
 const CitiesContext = createContext(); // Ensure this is exported
 
@@ -70,7 +70,7 @@ const CitiesProvider = ({ children }) => {
     fetchCities();
   }, []);
 
-  const getCity = async (id) => {
+  const getCity = useCallback(async (id) => {
     if (id === null || id === undefined) {
       return;
     }
@@ -93,7 +93,7 @@ const CitiesProvider = ({ children }) => {
         payload: "Something went wrong, Please try again later",
       });
     }
-  };
+  }, [currentCity, dispatch]);
 
   const createCity = async (newCity) => {
     dispatch({ type: "loading" });

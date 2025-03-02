@@ -7,7 +7,7 @@ export default function Product() {
       <PageNav />
       <section>
         <img
-          src="img-1.jpg"
+          src={`${import.meta.env.BASE_URL}img-1.jpg`}
           alt="person with dog overlooking mountain with sunset"
         />
         <div>
